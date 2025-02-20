@@ -16,7 +16,8 @@ namespace EmpowerApps.SeleniumUtility
             {
                 SelectElement select = new SelectElement(dropdownElement);
                 select.SelectByText(option);
-
+             SelectElement select = new SelectElement(dropdownElement);
+                select.SelectByValue(option);
             }
             catch (Exception e)
             {
