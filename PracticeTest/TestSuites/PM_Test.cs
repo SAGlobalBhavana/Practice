@@ -9,8 +9,10 @@ namespace PracticeTest.TestSuites
         [TestMethod]
         public void TestMethod1()
         {
+              IWebDriver driver = new ChromeDriver();
             driver.Navigate().GoToUrl("https://www.google.com");
             driver.Manage().Window.Maximize();
+          driver.Navigate().GoToUrl("https://www.Amazon.com");            
         }
     }
 }
