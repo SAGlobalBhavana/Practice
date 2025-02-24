@@ -9,6 +9,8 @@ namespace PracticeTest.TestSuites
         [TestMethod]
         public void TestMethod1()
         {
+            // add the google 
+            // need to add thelogin part logic 
               IWebDriver driver = new ChromeDriver();
             driver.Navigate().GoToUrl("https://www.google.com");
             driver.Manage().Window.Maximize();
